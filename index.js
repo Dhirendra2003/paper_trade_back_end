@@ -11,14 +11,14 @@ app.use(cors());
 
 const bodyParser = require("body-parser");
 const { MongoClient, ObjectId } = require("mongodb");
-const uri = "mongodb+srv://shindedhirendra780:Dhirendra%402003@users.9e6kw7j.mongodb.net/?retryWrites=true&w=majority&appName=users";
+const uri = "mongodb+srv://shindedhirendra780:Dhirendra%402003@users.9e6kw7j.mongodb.net/papertrade?retryWrites=true&w=majority&appName=users";
 const client = new MongoClient(uri);
 
 const PORT = 4400;
-const MONGODB_URI = "mongodb+srv://shindedhirendra780:Dhirendra%402003@users.9e6kw7j.mongodb.net/?retryWrites=true&w=majority&appName=users";
+const MONGODB_URI = "mongodb+srv://shindedhirendra780:Dhirendra%402003@users.9e6kw7j.mongodb.net/papertrade?retryWrites=true&w=majority&appName=users";
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb+srv://shindedhirendra780:Dhirendra%402003@users.9e6kw7j.mongodb.net/?retryWrites=true&w=majority&appName=users");
+mongoose.connect("mongodb+srv://shindedhirendra780:Dhirendra%402003@users.9e6kw7j.mongodb.net/papertrade?retryWrites=true&w=majority&appName=users");
 
 let db;
 
