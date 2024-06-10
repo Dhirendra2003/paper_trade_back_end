@@ -15,7 +15,7 @@ const uri = "mongodb+srv://shindedhirendra780:Dhirendra%402003@users.9e6kw7j.mon
 const client = new MongoClient(uri);
 
 const PORT = 4400;
-const MONGODB_URI = "mongodb://localhost:27017/papertrade";
+const MONGODB_URI = "mongodb+srv://shindedhirendra780:Dhirendra%402003@users.9e6kw7j.mongodb.net/?retryWrites=true&w=majority&appName=users";
 app.use(bodyParser.json());
 
 mongoose.connect("mongodb+srv://shindedhirendra780:Dhirendra%402003@users.9e6kw7j.mongodb.net/?retryWrites=true&w=majority&appName=users");
